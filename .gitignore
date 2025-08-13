@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Local settings
+.env
+*.sqlite3
+
+# OS junk
+.DS_Store
+Thumbs.db
