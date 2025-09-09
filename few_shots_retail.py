@@ -1,5 +1,5 @@
 
-# few_shots_retail.py  (SQL-ONLY examples — no results, no answers)
+# few_shots_retail.py  
 FEW_SHOTS = [
     {"q": "How many Nike White size L are in stock?",
      "sql": "SELECT SUM(`stock_quantity`) FROM `t_shirts` WHERE `brand`='Nike' AND `color`='White' AND `size`='L'"},
